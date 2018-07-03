@@ -16,6 +16,7 @@ public class Selenium2Example {
 
         // And now use this to visit Google
         driver.get("http://www.google.com");
+        driver.manage().window().maximize();
         // Alternatively the same thing can be done like this
         // driver.navigate().to("http://www.google.com");
 
